@@ -1,0 +1,116 @@
+[0.529s] Invoking command in '/home/atwork/caramelo_atwork/src/pacote_de_exemplos': PYTHONPATH=/home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pacote_de_exemplos build --build-base /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build install --record /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/install.log --single-version-externally-managed install_data
+[0.637s] running egg_info
+[0.638s] creating ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info
+[0.638s] writing ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/PKG-INFO
+[0.638s] writing dependency_links to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/dependency_links.txt
+[0.638s] writing entry points to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/entry_points.txt
+[0.638s] writing requirements to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/requires.txt
+[0.638s] writing top-level names to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/top_level.txt
+[0.638s] writing manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'
+[0.639s] reading manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'
+[0.639s] writing manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'
+[0.639s] running build
+[0.639s] running build_py
+[0.640s] creating /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build
+[0.640s] creating /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib
+[0.640s] creating /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.640s] copying pacote_de_exemplos/checkpoints.py -> /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.640s] copying pacote_de_exemplos/no_com_classe.py -> /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.640s] copying pacote_de_exemplos/r2d2.py -> /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.640s] copying pacote_de_exemplos/robot.py -> /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.640s] copying pacote_de_exemplos/no_simples.py -> /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.640s] copying pacote_de_exemplos/__init__.py -> /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos
+[0.640s] running install
+[0.640s] running install_lib
+[0.640s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.640s] copying /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/checkpoints.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.640s] copying /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/no_com_classe.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.640s] copying /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/r2d2.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.640s] copying /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/robot.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.641s] copying /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/no_simples.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.641s] copying /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/__init__.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos
+[0.641s] byte-compiling /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/checkpoints.py to checkpoints.cpython-310.pyc
+[0.641s] byte-compiling /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/no_com_classe.py to no_com_classe.cpython-310.pyc
+[0.641s] byte-compiling /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/r2d2.py to r2d2.cpython-310.pyc
+[0.642s] byte-compiling /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/robot.py to robot.cpython-310.pyc
+[0.642s] byte-compiling /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/no_simples.py to no_simples.cpython-310.pyc
+[0.642s] byte-compiling /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/__init__.py to __init__.cpython-310.pyc
+[0.642s] running install_data
+[0.642s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/ament_index
+[0.642s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/ament_index/resource_index
+[0.642s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/ament_index/resource_index/packages
+[0.642s] copying resource/pacote_de_exemplos -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/ament_index/resource_index/packages
+[0.642s] copying package.xml -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos
+[0.642s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config
+[0.642s] copying config/Default.perspective -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/
+[0.642s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map
+[0.642s] copying config/map/map.pgm -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map
+[0.642s] copying config/map/checkpoints.json -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map
+[0.642s] copying config/map/map.yaml -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map
+[0.642s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[0.643s] copying config/nav/ekf.yaml -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[0.643s] copying config/nav/cartographer.lua -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[0.643s] copying config/nav/slam_toolbox.yaml -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[0.643s] copying config/nav/nav2_params.yaml -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav
+[0.643s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.643s] copying config/rviz/navigation.rviz -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.643s] copying config/rviz/robot.rviz -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.643s] copying config/rviz/mapping_slam_toolbox.rviz -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.643s] copying config/rviz/mapping_cartographer.rviz -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz
+[0.643s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch
+[0.643s] copying launch/mapping_slam_toolbox.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/simulation.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/exemplo.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/mapping_cartographer.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/navigation2.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/turtlebot.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/display.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/load_turtlebot.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/load.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] copying launch/navigation.launch.py -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/
+[0.643s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation
+[0.643s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models
+[0.643s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room
+[0.643s] copying simulation/models/simple_room/model.sdf -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room
+[0.643s] copying simulation/models/simple_room/model.config -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room
+[0.643s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square
+[0.643s] copying simulation/models/wood_square/model.sdf -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square
+[0.643s] copying simulation/models/wood_square/model.config -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square
+[0.643s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2
+[0.643s] copying simulation/models/r2d2/model.sdf -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2
+[0.643s] copying simulation/models/r2d2/model.config -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2
+[0.643s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box
+[0.643s] copying simulation/models/box/model.sdf -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box
+[0.643s] copying simulation/models/box/model.config -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box
+[0.644s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[0.644s] copying simulation/worlds/empty.world -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[0.644s] copying simulation/worlds/simple_room.world -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[0.644s] copying simulation/worlds/simple_room_with_fixed_boxes.world -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[0.644s] copying simulation/worlds/simple_room_with_random_boxes.world -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[0.644s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf
+[0.644s] copying urdf/sam_bot_description.urdf -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/
+[0.644s] copying urdf/myfirstrobot.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/
+[0.644s] copying urdf/myfirstrobot.urdf -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/
+[0.644s] copying urdf/robot.urdf -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/
+[0.644s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros
+[0.644s] copying urdf/macros/properties.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros
+[0.644s] copying urdf/macros/link_geometry.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros
+[0.644s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[0.644s] copying urdf/macros/parts/base.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[0.644s] copying urdf/macros/parts/leg.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[0.644s] copying urdf/macros/parts/wheel.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[0.644s] copying urdf/macros/parts/head.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts
+[0.644s] creating /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[0.644s] copying urdf/simulation/gazebo_laser.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[0.644s] copying urdf/simulation/gazebo_base.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[0.644s] copying urdf/simulation/imu.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[0.644s] copying urdf/simulation/gazebo_camera.urdf.xacro -> /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation
+[0.644s] running install_egg_info
+[0.645s] Copying ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info to /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos-0.0.0-py3.10.egg-info
+[0.645s] running install_scripts
+[0.657s] Installing checkpoints script to /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[0.657s] Installing no_com_classe script to /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[0.657s] Installing no_simples script to /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[0.657s] Installing r2d2 script to /home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[0.658s] writing list of installed files to '/home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/install.log'
+[0.677s] Invoked command in '/home/atwork/caramelo_atwork/src/pacote_de_exemplos' returned '0': PYTHONPATH=/home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atwork/caramelo_atwork/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pacote_de_exemplos build --build-base /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/build install --record /home/atwork/caramelo_atwork/src/build/pacote_de_exemplos/install.log --single-version-externally-managed install_data
