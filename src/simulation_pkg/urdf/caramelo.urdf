@@ -46,14 +46,14 @@
     </link>
 
     <!--? JOINT ?-->
-    <joint name="base_fl_wheel_joint" type="fixed">
+    <joint name="base_fl_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="front_left_wheel"/>
-        <origin xyz="0.217 0.11 0" rpy="0 0 0"/>
+        <origin xyz="0.217 0.11 0" rpy="-1.57 0 0"/>
+        <axis xyz="0 0 1"/>
     </joint>
 
-
-    <!--! FRONT RIGHT WHEELS !-->
+        <!--! FRONT RIGHT WHEELS !-->
     <!--? LINK ?-->
     <link name="front_right_wheel">
         <visual>
@@ -66,14 +66,15 @@
     </link>
 
     <!--? JOINT ?-->
-    <joint name="base_fr_wheel_joint" type="fixed">
+    <joint name="base_fr_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="front_right_wheel"/>
-        <origin xyz="0.217 -0.11 0" rpy="0 0 0"/>
+        <origin xyz="0.217 -0.11 0" rpy="1.57 0 0"/>
+        <axis xyz="0 0 1"/>
+
     </joint>
 
-
-    <!--! REAR LEFT WHEELS !-->
+        <!--! REAR LEFT WHEELS !-->
     <!--? LINK ?-->
     <link name="rear_left_wheel">
         <visual>
@@ -86,10 +87,11 @@
     </link>
 
     <!--? JOINT ?-->
-    <joint name="base_rl_wheel_joint" type="fixed">
+    <joint name="base_rl_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="rear_left_wheel"/>
-        <origin xyz="-0.217 0.11 0" rpy="0 0 0"/>
+        <origin xyz="-0.217 0.11 0" rpy="-1.57 0 0"/>
+        <axis xyz="0 0 1" />
     </joint>
 
     <!--! REAR RIGHT WHEELS !-->
@@ -105,11 +107,18 @@
     </link>
 
     <!--? JOINT ?-->
-    <joint name="base_rr_wheel_joint" type="fixed">
+    <joint name="base_rr_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="rear_right_wheel"/>
-        <origin xyz="-0.217 -0.11 0" rpy="0 0 0"/>
+        <origin xyz="-0.217 -0.11 0" rpy="1.57 0 0"/>
+        <axis xyz="0 0 1"/>
     </joint>
+
+
+    <!--! LIDAR !-->
+    <!--? LINK ?-->
+
+    <!--? JOINT ?-->
 
 
 </robot>
