@@ -1,13 +1,124 @@
 <?xml version="1.0"?>
+<robot name="caramelo" >
+    
+    <!--! MATERIALS !-->
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
 
-<robot name="caramelo">
+    <material name="white">
+        <color rgba="1 1 1 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+    <material name="orange">
+        <color rgba="1 0.5 0 1"/>
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+
+    <!--! LINK: BASE LINK !-->
     <link name="base_link">
         <visual>
             <geometry>
-                <box size="0.538 0.309 0.150"/>
+                <box size="0.530 0.220 0.150"/>
             </geometry>
-            <origen xyz="0 0 0" rpy="0 0 0"/>
-            
+            <origen xyz="0 0 0.15" rpy="0 0 0"/>
+            <material name="black"/>
         </visual>
     </link>
+
+    <!--! FRONT LEFT WHEELS !-->
+    <!--? LINK ?-->
+    <link name="front_left_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.05"/>
+            </geometry>
+            <origen xyz="0.025 0 0" rpy="0 0 0"/>
+            <material name="orange"/>
+        </visual>
+    </link>
+
+    <!--? JOINT ?-->
+    <joint name="base_fl_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="front_left_wheel"/>
+        <origin xyz="0.217 0.11 0" rpy="-1.57 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+        <!--! FRONT RIGHT WHEELS !-->
+    <!--? LINK ?-->
+    <link name="front_right_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.05"/>
+            </geometry>
+            <origen xyz="0.025 0 0" rpy="0 0 0"/>
+            <material name="orange"/>
+        </visual>
+    </link>
+
+    <!--? JOINT ?-->
+    <joint name="base_fr_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="front_right_wheel"/>
+        <origin xyz="0.217 -0.11 0" rpy="1.57 0 0"/>
+        <axis xyz="0 0 1"/>
+
+    </joint>
+
+        <!--! REAR LEFT WHEELS !-->
+    <!--? LINK ?-->
+    <link name="rear_left_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.05"/>
+            </geometry>
+            <origen xyz="0 0 0" rpy="0 0 0"/>
+            <material name="orange"/>
+        </visual>
+    </link>
+
+    <!--? JOINT ?-->
+    <joint name="base_rl_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="rear_left_wheel"/>
+        <origin xyz="-0.217 0.11 0" rpy="-1.57 0 0"/>
+        <axis xyz="0 0 1" />
+    </joint>
+
+    <!--! REAR RIGHT WHEELS !-->
+    <!--? LINK ?-->
+    <link name="rear_right_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.05"/>
+            </geometry>
+            <origen xyz="0 0 0" rpy="0 0 0"/>
+            <material name="orange"/>
+        </visual>
+    </link>
+
+    <!--? JOINT ?-->
+    <joint name="base_rr_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="rear_right_wheel"/>
+        <origin xyz="-0.217 -0.11 0" rpy="1.57 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+
+    <!--! LIDAR !-->
+    <!--? LINK ?-->
+
+    <!--? JOINT ?-->
+
+
 </robot>
