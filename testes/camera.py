@@ -1,67 +1,63 @@
+#!/usr/bin/env python3
+
+'''Demonstrate Python wrapper of C apriltag library by running on camera frames.'''
+
+from argparse import ArgumentParser
 import cv2
-from dt_apriltags import Detector
+import apriltag
 
-# Índice da câmera ZED
-camera_index = 1
+# for some reason pylint complains about members being undefined :(
+# pylint: disable=E1101
 
-# Abre a câmera ZED
-cap = cv2.VideoCapture(camera_index)
+def main():
+    '''Main function.'''
 
-# Verifica se a câmera foi aberta corretamente
-if not cap.isOpened():
-    print("Erro: Não foi possível acessar a câmera.")
-    exit()
+    parser = ArgumentParser(
+        description='test apriltag Python bindings')
 
-# Configuração do detector de AprilTags
-detector = Detector()
+    parser.add_argument('device_or_movie', metavar='INPUT', nargs='?', default=0,
+                        help='Movie to load or integer ID of camera device')
 
-# Loop para capturar os frames
-while True:
-    # Captura o frame atual
-    ret, frame = cap.read()
+    apriltag.add_arguments(parser)
 
-    # Verifica se o frame foi capturado com sucesso
-    if not ret:
-        print("Erro: Não foi possível capturar o frame.")
-        break
+    options = parser.parse_args()
 
-    # Converte a imagem para escala de cinza
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    try:
+        cap = cv2.VideoCapture(int(options.device_or_movie))
+    except ValueError:
+        cap = cv2.VideoCapture(options.device_or_movie)
 
-    # Detecta as AprilTags na imagem
-    results = detector.detect(gray, estimate_tag_pose=False)
+    window = 'Camera'
+    cv2.namedWindow(window)
 
-    # Desenha retângulos ao redor das tags detectadas
-    for r in results:
-        # Obtém os pontos das bordas da tag
-        (ptA, ptB, ptC, ptD) = r.corners
-        ptA = (int(ptA[0]), int(ptA[1]))
-        ptB = (int(ptB[0]), int(ptB[1]))
-        ptC = (int(ptC[0]), int(ptC[1]))
-        ptD = (int(ptD[0]), int(ptD[1]))
+    detector = apriltag.Detector(options)
 
-        # Desenha as linhas para formar o retângulo
-        cv2.line(frame, ptA, ptB, (0, 255, 0), 2)
-        cv2.line(frame, ptB, ptC, (0, 255, 0), 2)
-        cv2.line(frame, ptC, ptD, (0, 255, 0), 2)
-        cv2.line(frame, ptD, ptA, (0, 255, 0), 2)
+    while True:
+        success, frame = cap.read()
+        if not success:
+            break
 
-        # Desenha o centro da tag
-        (cX, cY) = (int(r.center[0]), int(r.center[1]))
-        cv2.circle(frame, (cX, cY), 5, (0, 0, 255), -1)
+        gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
+        detections, dimg = detector.detect(gray, return_image=True)
 
-        # Exibe o ID da tag detectada
-        tag_id = r.tag_id
-        cv2.putText(frame, f"ID: {tag_id}", (cX, cY - 10),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+        num_detections = len(detections)
+        print('Detected {} tags.\n'.format(num_detections))
 
-    # Mostra o frame com as deteções
-    cv2.imshow("Detecção de AprilTags", frame)
+        for i, detection in enumerate(detections):
+            print('Detection {} of {}:'.format(i + 1, num_detections))
+            print(detection.tostring(indent=2))
+            print()
 
-    # Sai do loop se a tecla 'q' for pressionada
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+        overlay = frame // 2 + dimg[:, :, None] // 2
 
-# Libera a câmera e fecha as janelas
-cap.release()
-cv2.destroyAllWindows()
+        cv2.imshow(window, overlay)
+        k = cv2.waitKey(1)
+
+        if k == 27:  # Press 'ESC' to exit
+            break
+
+    cap.release()
+    cv2.destroyAllWindows()
+
+if __name__ == '__main__':
+    main()
