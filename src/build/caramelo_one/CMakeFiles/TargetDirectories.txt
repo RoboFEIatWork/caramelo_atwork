@@ -1,0 +1,9 @@
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/uninstall.dir
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/caramelo_one_uninstall.dir
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/test.dir
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/edit_cache.dir
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/rebuild_cache.dir
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/list_install_components.dir
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/install.dir
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/install/local.dir
+/home/atwork/caramelo_atwork/src/build/caramelo_one/CMakeFiles/install/strip.dir
