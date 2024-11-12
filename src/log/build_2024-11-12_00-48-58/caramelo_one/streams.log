@@ -1,0 +1,62 @@
+[0.006s] Invoking command in '/home/atwork/caramelo_atwork/src/build/caramelo_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/caramelo_atwork/src/install/simulation_pkg:/home/atwork/caramelo_atwork/src/install/navegacao_pkg:/opt/ros/humble /home/atwork/.local/bin/cmake /home/atwork/caramelo_atwork/src/caramelo_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atwork/caramelo_atwork/src/install/caramelo_one
+[0.277s] -- The C compiler identification is GNU 11.4.0
+[0.435s] -- The CXX compiler identification is GNU 11.4.0
+[0.467s] -- Detecting C compiler ABI info
+[0.617s] -- Detecting C compiler ABI info - done
+[0.662s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.664s] -- Detecting C compile features
+[0.665s] -- Detecting C compile features - done
+[0.677s] -- Detecting CXX compiler ABI info
+[0.854s] -- Detecting CXX compiler ABI info - done
+[0.898s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.899s] -- Detecting CXX compile features
+[0.901s] -- Detecting CXX compile features - done
+[0.908s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.251s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.412s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.686s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.700s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.703s] -- Added test 'lint_cmake' to check CMake code style
+[1.705s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.713s] -- Added test 'xmllint' to check XML markup files
+[1.717s] -- Configuring done (1.6s)
+[1.724s] -- Generating done (0.0s)
+[1.725s] -- Build files have been written to: /home/atwork/caramelo_atwork/src/build/caramelo_one
+[1.761s] Invoked command in '/home/atwork/caramelo_atwork/src/build/caramelo_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/caramelo_atwork/src/install/simulation_pkg:/home/atwork/caramelo_atwork/src/install/navegacao_pkg:/opt/ros/humble /home/atwork/.local/bin/cmake /home/atwork/caramelo_atwork/src/caramelo_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atwork/caramelo_atwork/src/install/caramelo_one
+[1.765s] Invoking command in '/home/atwork/caramelo_atwork/src/build/caramelo_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/caramelo_atwork/src/install/simulation_pkg:/home/atwork/caramelo_atwork/src/install/navegacao_pkg:/opt/ros/humble /home/atwork/.local/bin/cmake --build /home/atwork/caramelo_atwork/src/build/caramelo_one -- -j20 -l20
+[1.993s] Invoked command in '/home/atwork/caramelo_atwork/src/build/caramelo_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/caramelo_atwork/src/install/simulation_pkg:/home/atwork/caramelo_atwork/src/install/navegacao_pkg:/opt/ros/humble /home/atwork/.local/bin/cmake --build /home/atwork/caramelo_atwork/src/build/caramelo_one -- -j20 -l20
+[2.366s] Invoking command in '/home/atwork/caramelo_atwork/src/build/caramelo_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/caramelo_atwork/src/install/simulation_pkg:/home/atwork/caramelo_atwork/src/install/navegacao_pkg:/opt/ros/humble /home/atwork/.local/bin/cmake --install /home/atwork/caramelo_atwork/src/build/caramelo_one
+[2.483s] -- Install configuration: ""
+[2.483s] -- Execute custom install script
+[2.484s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/config/empty.yaml
+[2.486s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/config/view_robot.rviz
+[2.490s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/description/camera.xacro
+[2.498s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/description/gazebo_control.xacro
+[2.505s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/description/inertial_macros.xacro
+[2.512s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/description/laser.xacro
+[2.520s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/description/robot.urdf.xacro
+[2.527s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/description/robot_core.xacro
+[2.535s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/launch/camera.launch..py
+[2.541s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/launch/launch_sim.launch.py
+[2.549s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/launch/rplidar.launch.py
+[2.555s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/launch/rsp.launch.py
+[2.563s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/worlds/empty.world
+[2.571s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/worlds/obstacles
+[2.578s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/worlds/simple_room_with_fixed_boxes.world
+[2.586s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/ament_index/resource_index/package_run_dependencies/caramelo_one
+[2.593s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/ament_index/resource_index/parent_prefix_path/caramelo_one
+[2.600s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/environment/ament_prefix_path.sh
+[2.607s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/environment/ament_prefix_path.dsv
+[2.615s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/environment/path.sh
+[2.622s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/environment/path.dsv
+[2.628s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/local_setup.bash
+[2.636s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/local_setup.sh
+[2.643s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/local_setup.zsh
+[2.650s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/local_setup.dsv
+[2.657s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/package.dsv
+[2.664s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/ament_index/resource_index/packages/caramelo_one
+[2.672s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/cmake/caramelo_oneConfig.cmake
+[2.680s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/cmake/caramelo_oneConfig-version.cmake
+[2.687s] -- Symlinking: /home/atwork/caramelo_atwork/src/install/caramelo_one/share/caramelo_one/package.xml
+[2.723s] Invoked command in '/home/atwork/caramelo_atwork/src/build/caramelo_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/caramelo_atwork/src/install/simulation_pkg:/home/atwork/caramelo_atwork/src/install/navegacao_pkg:/opt/ros/humble /home/atwork/.local/bin/cmake --install /home/atwork/caramelo_atwork/src/build/caramelo_one

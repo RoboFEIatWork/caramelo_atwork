@@ -9,6 +9,7 @@ setup.py
 ../build/navegacao_pkg/navegacao_pkg.egg-info/top_level.txt
 ../build/navegacao_pkg/navegacao_pkg.egg-info/zip-safe
 navegacao_pkg/__init__.py
+navegacao_pkg/serial_node_arduino.py
 resource/navegacao_pkg
 test/test_copyright.py
 test/test_flake8.py

@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: navegacao-pkg
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: Pacote para controle de robô via serial
 Home-page: UNKNOWN
 Maintainer: atwork
 Maintainer-email: robofei.atwork@gmail.com

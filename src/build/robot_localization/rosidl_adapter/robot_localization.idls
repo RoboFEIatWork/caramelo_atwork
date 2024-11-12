@@ -1,7 +1,0 @@
-/home/atwork/caramelo_atwork/src/build/robot_localization/rosidl_adapter/robot_localization:srv/FromLL.idl
-/home/atwork/caramelo_atwork/src/build/robot_localization/rosidl_adapter/robot_localization:srv/GetState.idl
-/home/atwork/caramelo_atwork/src/build/robot_localization/rosidl_adapter/robot_localization:srv/SetDatum.idl
-/home/atwork/caramelo_atwork/src/build/robot_localization/rosidl_adapter/robot_localization:srv/SetPose.idl
-/home/atwork/caramelo_atwork/src/build/robot_localization/rosidl_adapter/robot_localization:srv/SetUTMZone.idl
-/home/atwork/caramelo_atwork/src/build/robot_localization/rosidl_adapter/robot_localization:srv/ToggleFilterProcessing.idl
-/home/atwork/caramelo_atwork/src/build/robot_localization/rosidl_adapter/robot_localization:srv/ToLL.idl
